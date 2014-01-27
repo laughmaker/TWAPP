@@ -9,7 +9,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MyQR/AppGeneral/AppEngine/TWModel/TWNetworkRequest.m"
+            filePath = "TWAPP/AppGeneral/AppEngine/TWModel/TWNetworkRequest.m"
             timestampString = "411217297.544763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"

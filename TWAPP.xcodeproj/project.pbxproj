@@ -19,6 +19,8 @@
 		256D2EC8186FF4CC003B7AD8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256D2EC7186FF4CC003B7AD8 /* AVFoundation.framework */; };
 		256D2ECA186FF4D4003B7AD8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256D2EC9186FF4D4003B7AD8 /* CoreMedia.framework */; };
 		256D2ECC186FF4DC003B7AD8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256D2ECB186FF4DC003B7AD8 /* CoreVideo.framework */; };
+		25B6C1931896028D00F8A902 /* FindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6C1921896028D00F8A902 /* FindModel.m */; };
+		25B6C1961896029A00F8A902 /* FindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6C1951896029A00F8A902 /* FindView.m */; };
 		25C0C31D186EEF6F0061613B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C0C31C186EEF6F0061613B /* Foundation.framework */; };
 		25C0C31F186EEF6F0061613B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C0C31E186EEF6F0061613B /* CoreGraphics.framework */; };
 		25C0C321186EEF6F0061613B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C0C320186EEF6F0061613B /* UIKit.framework */; };
@@ -171,20 +173,24 @@
 		256D2EC7186FF4CC003B7AD8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		256D2EC9186FF4D4003B7AD8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		256D2ECB186FF4DC003B7AD8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		25C0C319186EEF6F0061613B /* SchoolInk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolInk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B6C1911896028D00F8A902 /* FindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindModel.h; sourceTree = "<group>"; };
+		25B6C1921896028D00F8A902 /* FindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindModel.m; sourceTree = "<group>"; };
+		25B6C1941896029A00F8A902 /* FindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindView.h; sourceTree = "<group>"; };
+		25B6C1951896029A00F8A902 /* FindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindView.m; sourceTree = "<group>"; };
+		25C0C319186EEF6F0061613B /* TWAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C0C31C186EEF6F0061613B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25C0C31E186EEF6F0061613B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		25C0C320186EEF6F0061613B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		25C0C324186EEF6F0061613B /* SchoolInk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoolInk-Info.plist"; sourceTree = "<group>"; };
+		25C0C324186EEF6F0061613B /* TWAPP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWAPP-Info.plist"; sourceTree = "<group>"; };
 		25C0C326186EEF6F0061613B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25C0C328186EEF6F0061613B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25C0C32A186EEF6F0061613B /* SchoolInk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SchoolInk-Prefix.pch"; sourceTree = "<group>"; };
+		25C0C32A186EEF6F0061613B /* TWAPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWAPP-Prefix.pch"; sourceTree = "<group>"; };
 		25C0C32B186EEF6F0061613B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25C0C32C186EEF6F0061613B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25C0C32E186EEF6F0061613B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		25C0C334186EEF6F0061613B /* SchoolInkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolInkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C0C334186EEF6F0061613B /* TWAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C0C335186EEF6F0061613B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		25C0C33D186EEF6F0061613B /* SchoolInkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoolInkTests-Info.plist"; sourceTree = "<group>"; };
+		25C0C33D186EEF6F0061613B /* TWAPPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWAPPTests-Info.plist"; sourceTree = "<group>"; };
 		25C0C33F186EEF6F0061613B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25C0C341186EEF6F0061613B /* MyQRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyQRTests.m; sourceTree = "<group>"; };
 		25C0C48A186EF62B0061613B /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
@@ -442,6 +448,8 @@
 		25347C051882B99200329EBF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				25B6C1911896028D00F8A902 /* FindModel.h */,
+				25B6C1921896028D00F8A902 /* FindModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -449,6 +457,8 @@
 		25347C061882B99200329EBF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				25B6C1941896029A00F8A902 /* FindView.h */,
+				25B6C1951896029A00F8A902 /* FindView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -566,8 +576,8 @@
 			isa = PBXGroup;
 			children = (
 				25C0C4A7186EF62B0061613B /* Lib */,
-				25C0C322186EEF6F0061613B /* SchoolInk */,
-				25C0C33B186EEF6F0061613B /* MyQRTests */,
+				25C0C322186EEF6F0061613B /* TWAPP */,
+				25C0C33B186EEF6F0061613B /* TWAPPTests */,
 				25C0C31B186EEF6F0061613B /* Frameworks */,
 				25C0C31A186EEF6F0061613B /* Products */,
 			);
@@ -576,8 +586,8 @@
 		25C0C31A186EEF6F0061613B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25C0C319186EEF6F0061613B /* SchoolInk.app */,
-				25C0C334186EEF6F0061613B /* SchoolInkTests.xctest */,
+				25C0C319186EEF6F0061613B /* TWAPP.app */,
+				25C0C334186EEF6F0061613B /* TWAPPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -615,7 +625,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		25C0C322186EEF6F0061613B /* SchoolInk */ = {
+		25C0C322186EEF6F0061613B /* TWAPP */ = {
 			isa = PBXGroup;
 			children = (
 				25347C031882B99200329EBF /* Find */,
@@ -628,34 +638,33 @@
 				25C0C32E186EEF6F0061613B /* Images.xcassets */,
 				25C0C323186EEF6F0061613B /* Supporting Files */,
 			);
-			name = SchoolInk;
-			path = MyQR;
+			path = TWAPP;
 			sourceTree = "<group>";
 		};
 		25C0C323186EEF6F0061613B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				25C0C324186EEF6F0061613B /* SchoolInk-Info.plist */,
+				25C0C324186EEF6F0061613B /* TWAPP-Info.plist */,
 				25C0C325186EEF6F0061613B /* InfoPlist.strings */,
 				25C0C328186EEF6F0061613B /* main.m */,
-				25C0C32A186EEF6F0061613B /* SchoolInk-Prefix.pch */,
+				25C0C32A186EEF6F0061613B /* TWAPP-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		25C0C33B186EEF6F0061613B /* MyQRTests */ = {
+		25C0C33B186EEF6F0061613B /* TWAPPTests */ = {
 			isa = PBXGroup;
 			children = (
 				25C0C341186EEF6F0061613B /* MyQRTests.m */,
 				25C0C33C186EEF6F0061613B /* Supporting Files */,
 			);
-			path = MyQRTests;
+			path = TWAPPTests;
 			sourceTree = "<group>";
 		};
 		25C0C33C186EEF6F0061613B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				25C0C33D186EEF6F0061613B /* SchoolInkTests-Info.plist */,
+				25C0C33D186EEF6F0061613B /* TWAPPTests-Info.plist */,
 				25C0C33E186EEF6F0061613B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -738,15 +747,15 @@
 				25C0C50D186EF62B0061613B /* Views */,
 			);
 			name = Lib;
-			path = MyQR/Lib;
+			path = TWAPP/Lib;
 			sourceTree = "<group>";
 		};
 		25C0C4A8186EF62B0061613B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				25C0C4A9186EF62B0061613B /* Category.h */,
 				25F6126A1874442D00F20152 /* UIImage+ImageEffects.h */,
 				25F6126B1874442D00F20152 /* UIImage+ImageEffects.m */,
-				25C0C4A9186EF62B0061613B /* Category.h */,
 				25C0C4AA186EF62B0061613B /* NSData+Addition.h */,
 				25C0C4AB186EF62B0061613B /* NSData+Addition.m */,
 				25C0C4AC186EF62B0061613B /* NSDate+Addition.h */,
@@ -1010,9 +1019,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25C0C318186EEF6F0061613B /* SchoolInk */ = {
+		25C0C318186EEF6F0061613B /* TWAPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25C0C345186EEF6F0061613B /* Build configuration list for PBXNativeTarget "SchoolInk" */;
+			buildConfigurationList = 25C0C345186EEF6F0061613B /* Build configuration list for PBXNativeTarget "TWAPP" */;
 			buildPhases = (
 				25C0C315186EEF6F0061613B /* Sources */,
 				25C0C316186EEF6F0061613B /* Frameworks */,
@@ -1022,14 +1031,14 @@
 			);
 			dependencies = (
 			);
-			name = SchoolInk;
+			name = TWAPP;
 			productName = MyQR;
-			productReference = 25C0C319186EEF6F0061613B /* SchoolInk.app */;
+			productReference = 25C0C319186EEF6F0061613B /* TWAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		25C0C333186EEF6F0061613B /* SchoolInkTests */ = {
+		25C0C333186EEF6F0061613B /* TWAPPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25C0C348186EEF6F0061613B /* Build configuration list for PBXNativeTarget "SchoolInkTests" */;
+			buildConfigurationList = 25C0C348186EEF6F0061613B /* Build configuration list for PBXNativeTarget "TWAPPTests" */;
 			buildPhases = (
 				25C0C330186EEF6F0061613B /* Sources */,
 				25C0C331186EEF6F0061613B /* Frameworks */,
@@ -1040,9 +1049,9 @@
 			dependencies = (
 				25C0C33A186EEF6F0061613B /* PBXTargetDependency */,
 			);
-			name = SchoolInkTests;
+			name = TWAPPTests;
 			productName = MyQRTests;
-			productReference = 25C0C334186EEF6F0061613B /* SchoolInkTests.xctest */;
+			productReference = 25C0C334186EEF6F0061613B /* TWAPPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1059,7 +1068,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25C0C314186EEF6F0061613B /* Build configuration list for PBXProject "SchoolInk" */;
+			buildConfigurationList = 25C0C314186EEF6F0061613B /* Build configuration list for PBXProject "TWAPP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1072,8 +1081,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25C0C318186EEF6F0061613B /* SchoolInk */,
-				25C0C333186EEF6F0061613B /* SchoolInkTests */,
+				25C0C318186EEF6F0061613B /* TWAPP */,
+				25C0C333186EEF6F0061613B /* TWAPPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1131,9 +1140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25C0C54E186EF62B0061613B /* NSData+Addition.m in Sources */,
+				25B6C1931896028D00F8A902 /* FindModel.m in Sources */,
 				25C0C55C186EF62B0061613B /* UITextField+LimitLength.m in Sources */,
 				25C0C558186EF62B0061613B /* UIDevice+DeviceInfo.m in Sources */,
 				25C0C32D186EEF6F0061613B /* AppDelegate.m in Sources */,
+				25B6C1961896029A00F8A902 /* FindView.m in Sources */,
 				25347C181882B9C000329EBF /* MeVC.m in Sources */,
 				25C0C56B186EF62B0061613B /* MKNetworkEngine.m in Sources */,
 				25C0C575186EF62B0061613B /* SDWebImageManager.m in Sources */,
@@ -1220,7 +1231,7 @@
 /* Begin PBXTargetDependency section */
 		25C0C33A186EEF6F0061613B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 25C0C318186EEF6F0061613B /* SchoolInk */;
+			target = 25C0C318186EEF6F0061613B /* TWAPP */;
 			targetProxy = 25C0C339186EEF6F0061613B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1324,12 +1335,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyQR/SchoolInk-Prefix.pch";
-				INFOPLIST_FILE = "MyQR/SchoolInk-Info.plist";
+				GCC_PREFIX_HEADER = "TWAPP/TWAPP-Prefix.pch";
+				INFOPLIST_FILE = "TWAPP/TWAPP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = SchoolInk;
+				PRODUCT_NAME = TWAPP;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1342,12 +1353,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyQR/SchoolInk-Prefix.pch";
-				INFOPLIST_FILE = "MyQR/SchoolInk-Info.plist";
+				GCC_PREFIX_HEADER = "TWAPP/TWAPP-Prefix.pch";
+				INFOPLIST_FILE = "TWAPP/TWAPP-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = SchoolInk;
+				PRODUCT_NAME = TWAPP;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1369,8 +1380,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MyQRTests/SchoolInkTests-Info.plist";
-				PRODUCT_NAME = SchoolInkTests;
+				INFOPLIST_FILE = "MyQRTests/TWAPPTests-Info.plist";
+				PRODUCT_NAME = TWAPPTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1388,8 +1399,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyQR/MyQR-Prefix.pch";
-				INFOPLIST_FILE = "MyQRTests/SchoolInkTests-Info.plist";
-				PRODUCT_NAME = SchoolInkTests;
+				INFOPLIST_FILE = "MyQRTests/TWAPPTests-Info.plist";
+				PRODUCT_NAME = TWAPPTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1398,7 +1409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25C0C314186EEF6F0061613B /* Build configuration list for PBXProject "SchoolInk" */ = {
+		25C0C314186EEF6F0061613B /* Build configuration list for PBXProject "TWAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25C0C343186EEF6F0061613B /* Debug */,
@@ -1407,7 +1418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25C0C345186EEF6F0061613B /* Build configuration list for PBXNativeTarget "SchoolInk" */ = {
+		25C0C345186EEF6F0061613B /* Build configuration list for PBXNativeTarget "TWAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25C0C346186EEF6F0061613B /* Debug */,
@@ -1416,7 +1427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25C0C348186EEF6F0061613B /* Build configuration list for PBXNativeTarget "SchoolInkTests" */ = {
+		25C0C348186EEF6F0061613B /* Build configuration list for PBXNativeTarget "TWAPPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25C0C349186EEF6F0061613B /* Debug */,
